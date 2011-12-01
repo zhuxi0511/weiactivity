@@ -1,0 +1,82 @@
+2011/11/30 18:53:57 [error] [php] Undefined variable: projectName (/var/www/weiactivity/protected/views/site/index.php:1)
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/weiactivity/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/weiactivity/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /var/www/weiactivity/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/weiactivity/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/weiactivity/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/weiactivity/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/weiactivity/index.php(13): CWebApplication->run()
+REQUEST_URI=/weiactivity/
+in /var/www/weiactivity/protected/views/site/index.php (1)
+in /var/www/weiactivity/protected/controllers/SiteController.php (32)
+in /var/www/weiactivity/index.php (13)
+2011/11/30 18:53:58 [error] [php] Undefined variable: projectName (/var/www/weiactivity/protected/views/site/index.php:1)
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/weiactivity/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/weiactivity/protected/controllers/SiteController.php(32): SiteController->render()
+#3 /var/www/weiactivity/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/weiactivity/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/weiactivity/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/weiactivity/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/weiactivity/index.php(13): CWebApplication->run()
+REQUEST_URI=/weiactivity/
+in /var/www/weiactivity/protected/views/site/index.php (1)
+in /var/www/weiactivity/protected/controllers/SiteController.php (32)
+in /var/www/weiactivity/index.php (13)
+2011/12/01 01:52:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /var/www/weiactivity/yii/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(262): CController->missingAction('search')
+#1 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): CController->run('search')
+#2 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/search')
+#3 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/weiactivity/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/weiactivity/index.php?r=site/search
+2011/12/01 01:52:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "hold".' in /var/www/weiactivity/yii/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(262): CController->missingAction('hold')
+#1 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): CController->run('hold')
+#2 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/hold')
+#3 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/weiactivity/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/weiactivity/index.php?r=site/hold
+2011/12/01 01:53:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /var/www/weiactivity/yii/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(262): CController->missingAction('search')
+#1 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): CController->run('search')
+#2 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/search')
+#3 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/weiactivity/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/weiactivity/index.php?r=site/search
+2011/12/01 01:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /var/www/weiactivity/yii/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(262): CController->missingAction('search')
+#1 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): CController->run('search')
+#2 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/search')
+#3 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/weiactivity/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/weiactivity/index.php?r=site/search
+2011/12/01 01:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /var/www/weiactivity/yii/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(262): CController->missingAction('search')
+#1 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): CController->run('search')
+#2 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/search')
+#3 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/weiactivity/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/weiactivity/index.php?r=site/search
+2011/12/01 01:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "search".' in /var/www/weiactivity/yii/framework/web/CController.php:477
+Stack trace:
+#0 /var/www/weiactivity/yii/framework/web/CController.php(262): CController->missingAction('search')
+#1 /var/www/weiactivity/yii/framework/web/CWebApplication.php(277): CController->run('search')
+#2 /var/www/weiactivity/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/search')
+#3 /var/www/weiactivity/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /var/www/weiactivity/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/weiactivity/index.php?r=site/search
